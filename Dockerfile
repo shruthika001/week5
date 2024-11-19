@@ -3,5 +3,4 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
 COPY . .
-CMD ["node", "App.js"]  # Ensure app.js exists or change to the appropriate entry file
-
+CMD ["node", "app.js"]  # Correctly formatted
